@@ -161,30 +161,6 @@ The notebook uses `kagglehub` to download datasets automatically. You need a Kag
 
 ---
 
-## Repository Structure
-
-```
-Phys_139_project/
-├── Full_Pipeline.ipynb        # Main notebook: data prep, training, evaluation
-├── README.md                  # This file
-├── requirements.txt           # Python dependencies
-├── results_baseline.csv       # Auto-generated: baseline model results
-├── results_all_models.csv     # Auto-generated: all model results
-└── data/                      # Auto-created by notebook (gitignored)
-    ├── SkinCancer/
-    │   ├── benign/
-    │   └── malignant/
-    ├── HAM10000/
-    │   └── akiec/ bcc/ bkl/ df/ mel/ nv/ vasc/
-    └── ChestXray/
-        ├── NORMAL/
-        └── PNEUMONIA/
-```
-
-> The `data/` directory is created automatically. Do not commit it to Git (it is in `.gitignore`).
-
----
-
 ## Bug Fixes Applied
 
 The following bugs were identified and fixed in `Full_Pipeline.ipynb` relative to the original Colab version:
