@@ -1,0 +1,35 @@
+# Datasets (auto-downloaded by notebook)
+data/
+
+# Generated result CSVs
+results_baseline.csv
+results_all_models.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Credentials
+kaggle.json
+.kaggle/
+
+# Environment
+.env
+.venv
+env/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
